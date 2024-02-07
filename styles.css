@@ -1,5 +1,12 @@
 body {
   font-family: Arial;
+  background-color: #0D1117;
+}
+h1 {
+  color: white;
+}
+p {
+  color: white;
 }
 button {
   background-color: #04AA6D; /* Green */
