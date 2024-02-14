@@ -81,7 +81,7 @@ img {
     border-radius: 5%;
 }
 img:hover {
-    transform: scale(1.04);
+    transform: scale(1.03);
 }
 .theme-switch {
     --toggle-size: 15px;
