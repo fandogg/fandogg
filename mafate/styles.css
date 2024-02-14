@@ -285,3 +285,51 @@ img:hover {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+/* Add this at the end of your CSS */
+
+@media only screen and (max-width: 600px) {
+    /* Adjustments for smaller screens */
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p.b {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    p.kys {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+
+    ul {
+        font-size: 16px;
+        margin-left: 40px;
+    }
+
+    p.tpics {
+        font-size: 24px;
+    }
+
+    p.txt {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    table, img {
+        font-family: Arial, sans-serif;
+        color: #000000;
+        font-weight: bold;
+        max-width: 100%;
+    }
+
+    #gapple {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+}
